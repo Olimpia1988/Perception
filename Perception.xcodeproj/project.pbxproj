@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,10 +27,6 @@
 		A507ECE4225654F0009B94A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A507ECE2225654F0009B94A9 /* LaunchScreen.storyboard */; };
 		A541DC48225F97BC00E30D6E /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541DC47225F97BC00E30D6E /* UserSession.swift */; };
 		A5565BE92281E6A1006E611C /* RotationSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565BE82281E6A0006E611C /* RotationSetup.swift */; };
-		A58D1D4422C68DE90020F6B1 /* pursuitPostCard.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A58D1D4322C68DE80020F6B1 /* pursuitPostCard.mp4 */; };
-		A58D1D4622C68DF10020F6B1 /* coockbook.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A58D1D4522C68DF10020F6B1 /* coockbook.mp4 */; };
-		A58D1D4822C68E030020F6B1 /* mets.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A58D1D4722C68E030020F6B1 /* mets.mp4 */; };
-		A58D1D4A22C69FE40020F6B1 /* gong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A58D1D4922C69FE40020F6B1 /* gong.mp4 */; };
 		A5B20AE6228DCCE3002BB8C4 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B20AE5228DCCE3002BB8C4 /* EmptyStateView.swift */; };
 		A5B411942257EC45006E14F7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B411932257EC45006E14F7 /* Main.swift */; };
 		A5B411972257EC7E006E14F7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B411962257EC7E006E14F7 /* LoginView.swift */; };
@@ -91,10 +87,6 @@
 		A5565BE82281E6A0006E611C /* RotationSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationSetup.swift; sourceTree = "<group>"; };
 		A5565BEE2281E74E006E611C /* pursuit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pursuit.mp4; sourceTree = "<group>"; };
 		A58D1D3B22C682EC0020F6B1 /* pursuitPostCard.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pursuitPostCard.mp4; sourceTree = "<group>"; };
-		A58D1D4322C68DE80020F6B1 /* pursuitPostCard.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pursuitPostCard.mp4; sourceTree = "<group>"; };
-		A58D1D4522C68DF10020F6B1 /* coockbook.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coockbook.mp4; sourceTree = "<group>"; };
-		A58D1D4722C68E030020F6B1 /* mets.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mets.mp4; sourceTree = "<group>"; };
-		A58D1D4922C69FE40020F6B1 /* gong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gong.mp4; sourceTree = "<group>"; };
 		A5B20AE5228DCCE3002BB8C4 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		A5B411932257EC45006E14F7 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		A5B411962257EC7E006E14F7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -186,10 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				A5565BEE2281E74E006E611C /* pursuit.mp4 */,
-				A58D1D4322C68DE80020F6B1 /* pursuitPostCard.mp4 */,
-				A58D1D4722C68E030020F6B1 /* mets.mp4 */,
-				A58D1D4922C69FE40020F6B1 /* gong.mp4 */,
-				A58D1D4522C68DF10020F6B1 /* coockbook.mp4 */,
 				A5B411BA2257EE0D006E14F7 /* Firebase Utilities */,
 				A5B411A72257ED4D006E14F7 /* Models */,
 				A5B411952257EC6C006E14F7 /* Views */,
@@ -413,10 +401,6 @@
 				A507ECE4225654F0009B94A9 /* LaunchScreen.storyboard in Resources */,
 				A507ECE1225654F0009B94A9 /* Assets.xcassets in Resources */,
 				A507ECDF225654EF009B94A9 /* Main.storyboard in Resources */,
-				A58D1D4622C68DF10020F6B1 /* coockbook.mp4 in Resources */,
-				A58D1D4422C68DE90020F6B1 /* pursuitPostCard.mp4 in Resources */,
-				A58D1D4822C68E030020F6B1 /* mets.mp4 in Resources */,
-				A58D1D4A22C69FE40020F6B1 /* gong.mp4 in Resources */,
 				1211DAC8225D2B6700D40F51 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,36 +421,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PerceptionTests/Pods-PerceptionTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PerceptionTests/Pods-PerceptionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toucan.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PerceptionTests/Pods-PerceptionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -523,40 +482,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Perception/Pods-Perception-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/ExpandingMenu/ExpandingMenu.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Perception/Pods-Perception-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandingMenu.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toucan.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Perception/Pods-Perception-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

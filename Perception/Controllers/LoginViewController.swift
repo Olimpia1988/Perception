@@ -2,6 +2,7 @@ import UIKit
 import Firebase
 import FirebaseFirestore
 import ProgressHUD
+import FirebaseAuth
 
 protocol LoginViewControllerDelegate: AnyObject {
     func checkForLoggedUser(_ logged: Bool)
